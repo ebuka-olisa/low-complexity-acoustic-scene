@@ -34,3 +34,4 @@ You are permitted to build your own systems by extending this system.
 
 Network Architecture
 ====================
+![Alt Image text](/images/networkarch.jpg?raw=true "Network Architecture")
