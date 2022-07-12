@@ -1,11 +1,11 @@
 # Low Complexity Acoustic Scene Classification
-DCASE2022 - Task 1 A - Baseline systems
 -------------------------------------
 
 Author:
 **Chukwuebuka Olisaemeka**, *Anglia Ruskin University* 
-[Email](mailto:irene.martinmorato@tuni.fi). 
+[Email](mailto:olisaemekaebuka@gmail.com). 
 **Lakshmi Babu Saheer**, *Anglia Ruskin University* 
+[Email](mailto:lakshmi.babu-saheer@aru.ac.uk). 
 
 
 Getting started
@@ -17,3 +17,20 @@ Getting started
 4. Create a .h5 file with the extracted features. 
    - `python create_h5.py --dataset_file='/TAUUrbanAcousticScenes_2022_Mobile_DevelopmentSet/meta.csv' --workspace='path'`.   
 5. Run the task specific application with default settings for model quantization `python task1.py` or  `./task1.py`
+
+
+Introduction
+============
+
+This is the codebase for our entry in the Low-Complexity Acoustic Scene Classification in Detection and Classification of Acoustic Scenes and Events 2022 (DCASE2022) challenge.
+You are permitted to build your own systems by extending this system.
+
+### Data preparation
+    |
+    ├── task1_features.yaml   # Parameters for the prepare_data.py file
+    ├── prepare_data.py       # Code to extract features from 1 second files
+    └── create_h5.py          # Code to create the features_all.h5 file
+
+
+Network Architecture
+====================
