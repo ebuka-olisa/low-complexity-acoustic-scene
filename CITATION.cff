@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Neural Network for Low Complexity Acoustic Scene
+  Classification
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Chukwuebuka
+    family-names: Olisaemeka
+    email: olisaemekaebuka@gmail.com
+    affiliation: Anglia Ruskin University
+  - given-names: Lakshi
+    family-names: Babu Saheer
+    email: lakshmi.babu-saheer@aru.ac.uk
+    affiliation: Anglia Ruskin University
+repository-code: >-
+  https://github.com/ebuka-olisa/low-complexity-acoustic-scene
+commit: bac0323cd7c8bb9621ea56af9843386342bcfa3f
+date-released: '2022-07-12'
