@@ -1,0 +1,9 @@
+ipython
+numpy
+librosa
+absl-py==0.9.0
+sed_eval>=0.2.0
+pyyaml==5.4
+dcase_util
+pandas
+pyparsing==2.2.0
